@@ -19,8 +19,7 @@ export class Hero extends Component {
                     <button className="cta-btn">
                         <span className="play-icon" role="img">
                             <img src={PlayIcon} alt="play icon" />
-                        </span> 
-                        Watch Trailer
+                        </span>  Watch Trailer
                     </button>
                 </div>
                 <div className="Hero-left">

@@ -1,5 +1,5 @@
 .Hero-main {
-    height: 60vh;
+    height: 68vh;
     display: flex;
     justify-content: space-between;
     color: #fff;
@@ -8,15 +8,21 @@
 .Hero-right {
     padding: 0 4rem;
     align-self: center;
+    text-align: left;
 }
 
 .Hero-right h1 {
     font-family: 'Game-of-Thrones', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 6.6rem;
     line-height: 1.3;
+    margin-bottom: 2rem;
 }
 
 .Hero-right h2{
     font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 1.3;
+    margin-bottom: 2rem;
+
 }
 
