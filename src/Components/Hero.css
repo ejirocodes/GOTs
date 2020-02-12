@@ -5,20 +5,20 @@
     color: #fff;
 }
 
-.Hero-right {
+.Hero-left {
     padding: 0 4rem;
     align-self: center;
     text-align: left;
 }
 
-.Hero-right h1 {
+.Hero-left h1 {
     font-family: 'Game-of-Thrones', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 6.6rem;
     line-height: 1.3;
     margin-bottom: 2rem;
 }
 
-.Hero-right h2{
+.Hero-left h2{
     font-weight: 600;
     font-size: 2.2rem;
     line-height: 1.3;
@@ -26,3 +26,24 @@
 
 }
 
+.cta-btn {
+    padding: 2rem 3rem;
+    background-color: var(--btn-color-main);
+    color: #fff;
+    font-family: 'Game-of-Thrones', serif;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    border: none;
+    border-radius: 1.2rem;
+    box-shadow: 0 .3rem 4.9rem rgba(243, 108, 55, 0.80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.play-icon img {
+    width: 1.8rem;
+    margin-right: 2.3rem;
+}

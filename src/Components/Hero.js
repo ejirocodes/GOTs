@@ -10,7 +10,7 @@ export class Hero extends Component {
     render() {
         return (
             <div className="Hero-main">
-                <div className="Hero-right">
+                <div className="Hero-left">
                     <h1>Game of <br /> Thrones</h1>
                     <h2>
                         "There is only one war that matters. <br />
@@ -22,7 +22,7 @@ export class Hero extends Component {
                         </span>  Watch Trailer
                     </button>
                 </div>
-                <div className="Hero-left">
+                <div className="Hero-right">
                     <a href="http://">
                         <img src={FacebookIcon} alt="Facebook page" />
                     </a>
