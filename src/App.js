@@ -2,14 +2,14 @@ import React from 'react';
 import { Route, Switch } from 'react-router-dom';
 import Seasons from './routes/Seasons'
 import Gallery from './routes/Gallery'
-import Navbar from './Components/Navbar'
+import Homepage from './Views/Homepage'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
       <Switch>
+        <Route path="/" exact component={Homepage} />
         <Route  path="/seasons" exact component={Seasons} />
         <Route  path="/gallery" exact component={Gallery} />
       </Switch>

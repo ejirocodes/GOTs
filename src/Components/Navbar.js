@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {NavLink} from 'react-router-dom'
-import logo from '../Assets/Components/Logo_HBO@2x.png';
+import logo from '../Assets/elements/Logo_HBO@2x.png';
 import './Navbar.css'
 
 export class Navbar extends Component {
