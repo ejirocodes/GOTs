@@ -1,7 +1,10 @@
 .Header-main {
     height: 100vh;
     background: url('../Assets/images/game-of-thrones-dragon-eyes-season-8-uhdpaper.com-4K-64.png');
-    background: radial-gradient(circle, rgba(2,0,36,0.04245448179271705) 0%, rgba(25,32,54,0.6250875350140056) 50%, rgba(25,32,54,0.5830707282913166) 100%),
+    background: radial-gradient(circle, rgba(2,0,36,0.04245448179271705) 0%, 
+                rgba(25, 32, 54, 0.26) 50%, 
+                rgba(25, 32, 54, 0.274) 100%),
+                 linear-gradient(180deg, rgba(0,0,0,0.03125) 47%, rgba(0,0,0,0.3757878151260504) 60%, rgba(0,0,0,0.8295693277310925) 89%),
                  url('../Assets/images/game-of-thrones-dragon-eyes-season-8-uhdpaper.com-4K-64.png') no-repeat;;
     background-size: cover;
     background-position: center;
