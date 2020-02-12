@@ -45,7 +45,7 @@
 
 .cta-btn:hover {
     transform: translateY(1rem);
-    box-shadow: none;
+    box-shadow: 0 .2rem 2rem rgba(243, 108, 55, 0.80);
 }
 
 .play-icon img {
