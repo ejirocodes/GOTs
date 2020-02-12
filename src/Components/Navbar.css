@@ -11,7 +11,9 @@
 
 .Navlink-container li a {
     margin-right: 7rem;
-    font-size: 1.8rem;
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
 }
 
 .Nav-logo {

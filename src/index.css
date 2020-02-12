@@ -1,3 +1,14 @@
+:root {
+  --btn-color-main: #F36B37;
+}
+
+@font-face {
+  font-family: 'Game-of-Thrones';
+  src: local('Game of Thrones'), 
+       url('./Assets/fonts//Game_of_Thrones.ttf') 
+       format('truetype');
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +30,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;  
   font-weight: 600;
   background-color: coral;
   line-height: 2;
