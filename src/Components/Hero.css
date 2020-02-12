@@ -32,7 +32,7 @@
     color: #fff;
     font-family: 'Game-of-Thrones', serif;
     font-size: 1rem;
-    letter-spacing: .2rem;
+    letter-spacing: .1rem;
     border: none;
     border-radius: 1.2rem;
     box-shadow: 0 .3rem 4.9rem rgba(243, 108, 55, 0.80);
@@ -40,10 +40,16 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: all ease-in-out .2s;
 }
 
+.cta-btn:hover {
+    transform: translateY(1rem);
+    box-shadow: none;
+}
 
 .play-icon img {
     width: 1.8rem;
     margin-right: 2.3rem;
+
 }
