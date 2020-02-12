@@ -1,7 +1,7 @@
 .Nav-main {
     display: flex;
     align-items: center;
-    padding: 2rem;
+    padding: 5rem 4rem;
 }
 
 .Navlink-container {
@@ -10,10 +10,14 @@
 }
 
 .Navlink-container li a {
-    margin-right: 1rem;
+    margin-right: 7rem;
+    font-size: 1.8rem;
 }
 
+.Nav-logo {
+    margin-right: 8.5rem;
+}
 
-.Nav-logo img{
-    width: 8rem;
+.Nav-logo img {
+    width: 11rem;
 }
