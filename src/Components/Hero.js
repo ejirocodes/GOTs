@@ -33,7 +33,7 @@ export class Hero extends Component {
                         <img src={YoutubeIcon} alt="Youtube channel" />
                     </a>
                      <a href="http://">
-                        <img src={NetflixIcon} alt="Stream on netflix" />
+                        <img className="netflix-img" src={NetflixIcon} alt="Stream on netflix" />
                     </a>
                 </div>
             </div>
