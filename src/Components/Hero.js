@@ -13,7 +13,7 @@ export class Hero extends Component {
                 <div className="Hero-right">
                     <h1>Game of <br /> Thrones</h1>
                     <h2>
-                        "There is only one war that matters.
+                        "There is only one war that matters. <br />
                         The Great War. And it is here." ~ Jon Snow
                     </h2>
                     <button className="cta-btn">
