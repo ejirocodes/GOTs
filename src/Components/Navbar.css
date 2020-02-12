@@ -1,0 +1,19 @@
+.Nav-main {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+
+.Navlink-container {
+    display: flex;
+    list-style: none;
+}
+
+.Navlink-container li a {
+    margin-right: 1rem;
+}
+
+
+.Nav-logo img{
+    width: 8rem;
+}

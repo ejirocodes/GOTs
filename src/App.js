@@ -1,11 +1,18 @@
 import React from 'react';
-import Header from './Components/Header'
+import { Route, Switch } from 'react-router-dom';
+import Seasons from './routes/Seasons'
+import Gallery from './routes/Gallery'
+import Navbar from './Components/Navbar'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Navbar />
+      <Switch>
+        <Route  path="/seasons" exact component={Seasons} />
+        <Route  path="/gallery" exact component={Gallery} />
+      </Switch>
     </div>
   );
 }
