@@ -53,3 +53,27 @@
     transform: translateY(1rem);
     box-shadow: 0 .2rem 2rem rgba(46, 154, 200, 0.80);
 }
+
+
+/* Media Queries */
+@media all and (max-width: 768px) {
+.learn-more-text {
+    margin: 0 4rem 0 2rem;
+}
+  .learn-more-text h2 { 
+      font-size: 5rem;
+  }
+}
+
+@media all and (max-width: 425px) {
+.LearnMore-container {
+    position: relative;
+}
+.learn-more-text {
+    position: absolute;
+    left: 2rem;
+}
+.learn-more-text h2 {
+    text-shadow: 2px 1px 12px rgb(0, 0, 0), -2px 1px 12px rgb(0, 0, 0);
+}
+}
