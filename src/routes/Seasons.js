@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from '../Components/Navbar'
+import Navbar from '../Components/Navbar';
 
 class Seasons extends Component {
     render() {
