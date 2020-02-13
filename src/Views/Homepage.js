@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
-import Header from '../Components/Header'
+import Header from '../Components/Header';
+import LearnMore from '../Components/LearnMore';
 
 class Homepage extends Component {
     render() {
         return (
             <>
-               <Header /> 
+                <Header /> 
+                <LearnMore /> 
             </>
         )
     }
 }
 
-export default Homepage
+
+export default Homepage;

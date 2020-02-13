@@ -1,0 +1,9 @@
+.LearnMore-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn-more-text h2 {
+    font-size: 4rem;
+    font-family: 'Game-of-Thrones', serif;
+}
