@@ -36,3 +36,8 @@ body {
   line-height: 2;
 }
 
+@media all and (max-width: 320px) {
+ html {
+  font-size: 58.5%;
+}
+}

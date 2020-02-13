@@ -16,11 +16,11 @@ export class Hero extends Component {
                         "There is only one war that matters. <br />
                         The Great War. And it is here." ~ Jon Snow
                     </h2>
-                    <button className="cta-btn">
+                    <a href="https://www.youtube.com/watch?v=rlR4PJn8b8I" target="_blank" rel="noopener noreferrer" className="cta-btn">
                         <span className="play-icon" role="img">
-                            <img src={PlayIcon} alt="play icon" />
-                        </span>  Watch Trailer
-                    </button>
+                            <img src={PlayIcon} alt="play icon" /> 
+                        </span> <p>Watch Trailer</p>
+                    </a>
                 </div>
                 <div className="Hero-right">
                     <a href="http://">

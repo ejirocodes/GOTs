@@ -23,3 +23,34 @@
 .Nav-logo img {
     width: 11rem;
 }
+
+@media all and (max-width: 768px) {
+    .Navlink-container {
+        display: none;
+    }
+}
+
+
+@media all and (max-width: 500px) {
+    .Navlink-container {
+        display: none;
+    }
+
+    .Nav-main {
+    padding: 3rem 2rem;
+    }
+    .Hero-left {
+    padding: 0 2rem !important;
+    }
+  
+.Hero-main {
+    margin-top: 2rem;
+}
+}
+
+@media all and (max-width: 425px) {
+    .Nav-logo img {
+    width: 9rem;
+    }
+}
+

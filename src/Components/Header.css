@@ -9,3 +9,13 @@
     background-size: cover;
     background-position: center;
 }
+
+
+/* Media Queries */
+
+@media all and (max-width: 425px) {
+  .Header-main {
+    height:88vh;
+}
+
+}
