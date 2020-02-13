@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Navbar from '../Components/Navbar'
 
 class Seasons extends Component {
     render() {
         return (
-            <div>
-                <h1>All the seasons at your click</h1>
-            </div>
+           <Navbar />
         )
     }
 }
 
-export default Seasons
+export default Seasons;
