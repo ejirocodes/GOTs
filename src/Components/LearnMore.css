@@ -1,9 +1,45 @@
 .LearnMore-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+.learn-more-text {
+    padding: 3rem;
+}
+
 
 .learn-more-text h2 {
     font-size: 4rem;
     font-family: 'Game-of-Thrones', serif;
+}
+
+
+.learn-more-btn {
+    padding: 2rem 3rem;
+    background-color: #2E99C8;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Game-of-Thrones', serif;
+    font-size: 1rem;
+    letter-spacing: .3rem;
+    border-radius: 1.2rem;
+    box-shadow: 0 .3rem 4.9rem #2E99C8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25rem;    
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    transition: all ease-in-out .2s;
+}
+
+
+
+.learn-more-btn:hover {
+    transform: translateY(1rem);
+    box-shadow: 0 .2rem 2rem rgba(46, 154, 200, 0.80);
 }

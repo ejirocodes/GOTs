@@ -16,7 +16,7 @@ const LearnMore = () => {
                     About <br />
                     The Show
                 </h2>
-                <a href="https://www.hbo.com/game-of-thrones"  rel="noopener noreferrer" target="_blank">Learn More</a>
+                <a className="learn-more-btn"  href="https://www.hbo.com/game-of-thrones"  rel="noopener noreferrer" target="_blank">Learn More</a>
             </div>
         </section>
    ) 
