@@ -1,0 +1,15 @@
+.Not-Found {
+    background: url('../Assets/images/Night_s_King_Sky_A_3325474k.png');
+    background-size: cover;
+    background-position: right;  
+    background-repeat: no-repeat;  
+    height: 100vh;
+    position: relative;
+}
+
+img {
+    position: absolute;
+    top: 3rem;
+    left: 2.2rem;
+    width: 28rem;
+}

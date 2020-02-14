@@ -5,8 +5,9 @@ import Gallery from './routes/Gallery'
 import Homepage from './Views/Homepage'
 import Houses from './routes/Houses';
 import Characters from './routes/Characters';
-import './App.css';
 import Lore from './routes/Lore';
+import NotFound404 from './routes/NotFound404';
+import './App.css';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route  path="/houses" exact component={Houses} />
         <Route  path="/lore" exact component={Lore} />
         <Route  path="/gallery" exact component={Gallery} />
+        <Route  path="*" exact component={NotFound404} />
       </Switch>
     </div>
   );
