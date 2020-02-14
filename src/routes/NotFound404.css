@@ -52,5 +52,32 @@ a.home-link:hover, a.home-link:active {
 }
 
 @media all and (max-width: 768px) {
+    .Not-Found__message {
+    padding-top: 50vh;
+    margin: 0; 
+    float: none;
+}
+.Not-Found {
+    background-position: left;
+}
+}
 
+
+@media all and (max-width: 460px) {
+    .Not-Found__message h2 {
+        font-size: 2.4rem;
+    }
+    a.home-link:link, a.home-link:visited {
+        font-size: 1.4rem;
+        margin-top: 1rem
+    }
+}
+
+@media all and (max-width: 375px) {
+    .Not-Found__message h2 {
+        font-size: 2rem;
+    }
+    a.home-link:link, a.home-link:visited {
+        font-size: 1rem;
+    }
 }
