@@ -7,9 +7,26 @@
     position: relative;
 }
 
-img {
+.got-img img {
     position: absolute;
     top: 3rem;
     left: 2.2rem;
     width: 28rem;
+}
+
+.Not-Found__message {
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20rem 4.4rem 0 0;
+    float: right;
+}
+
+.home-link {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #00172C;
+    color: #AACCE7;
 }

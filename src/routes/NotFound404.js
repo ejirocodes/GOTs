@@ -11,8 +11,8 @@ class NotFound404 extends Component {
                     <img src={GOTImg} alt="Game of Thrones Logo"/>
                 </div>
                 <div className="Not-Found__message">
-                    <h2>The long night is coming, and the dead come with it.</h2>
-                    <NavLink to="/">return home</NavLink>
+                    <h2>The long night is coming, <br /> and the dead come with it.</h2>
+                    <NavLink className="home-link" to="/">return home</NavLink>
                 </div>
             </section>
         )
