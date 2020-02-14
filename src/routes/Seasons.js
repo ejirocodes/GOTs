@@ -16,6 +16,30 @@ export class Seasons extends Component {
                             <figcaption>Season 1</figcaption>
                         </NavLink>
                     </figure>
+                    <figure className="item-1">
+                        <NavLink to="/season-1">
+                            <img src={s1} alt="Season one" />
+                            <figcaption>Season 1</figcaption>
+                        </NavLink>
+                    </figure>
+                    <figure className="item-1">
+                        <NavLink to="/season-1">
+                            <img src={s1} alt="Season one" />
+                            <figcaption>Season 1</figcaption>
+                        </NavLink>
+                    </figure>
+                    <figure className="item-1">
+                        <NavLink to="/season-1">
+                            <img src={s1} alt="Season one" />
+                            <figcaption>Season 1</figcaption>
+                        </NavLink>
+                    </figure>
+                    <figure className="item-1">
+                        <NavLink to="/season-1">
+                            <img src={s1} alt="Season one" />
+                            <figcaption>Season 1</figcaption>
+                        </NavLink>
+                    </figure>
                 </section>
             </>
         )
