@@ -4,16 +4,14 @@
 
 @font-face {
   font-family: 'Game-of-Thrones';
-  src: local('Game of Thrones'), 
-       url('./Assets/fonts/Game_of_Thrones.ttf') 
-       format('truetype');
+  src: local('Game of Thrones'),
+    url('./Assets/fonts/Game_of_Thrones.ttf') format('truetype');
 }
 
 @font-face {
-       font-family: 'League-Spartan';
-       src: local('League Spartan'), 
-       url('./Assets/fonts/LeagueSpartan-Bold.otf') 
-       format('opentype');
+  font-family: 'League-Spartan';
+  src: local('League Spartan'),
+    url('./Assets/fonts/LeagueSpartan-Bold.otf') format('opentype');
 }
 
 * {
@@ -37,7 +35,7 @@ html {
 }
 
 body {
-  font-family: 'Open Sans', sans-serif;  
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   background-color: #141A27;
   color: #fff;
@@ -45,7 +43,7 @@ body {
 }
 
 @media all and (max-width: 320px) {
- html {
-  font-size: 58.5%;
-}
+  html {
+    font-size: 58.5%;
+  }
 }

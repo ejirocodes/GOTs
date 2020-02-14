@@ -32,3 +32,12 @@ a figcaption {
 img:hover {
     opacity: 1;
 }
+
+
+/* Media queries */
+
+@media all and (max-width: 768px) {
+    a figcaption {
+        font-size: 2rem;
+    }
+}
