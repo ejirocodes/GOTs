@@ -30,27 +30,31 @@
     }
 }
 
+li a.Nav-active {
+    color: #acaaaa;
+}
 
+/* Media Queries */
 @media all and (max-width: 500px) {
     .Navlink-container {
         display: none;
     }
 
     .Nav-main {
-    padding: 3rem 2rem;
+        padding: 3rem 2rem;
     }
+
     .Hero-left {
-    padding: 0 2rem !important;
+        padding: 0 2rem !important;
     }
-  
-.Hero-main {
-    margin-top: 2rem;
-}
+
+    .Hero-main {
+        margin-top: 2rem;
+    }
 }
 
 @media all and (max-width: 425px) {
     .Nav-logo img {
-    width: 9rem;
+        width: 9rem;
     }
 }
-

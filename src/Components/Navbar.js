@@ -13,19 +13,19 @@ export class Navbar extends Component {
                     </NavLink>
                     <ul className="Navlink-container">
                         <li>
-                            <NavLink exact to='/seasons'>Seasons</NavLink>
+                            <NavLink activeClassName="Nav-active" exact to='/seasons'>Seasons</NavLink>
                         </li>
                         <li>
-                            <NavLink exact to='/characters'>Characters</NavLink>
+                            <NavLink activeClassName="Nav-active" exact to='/characters'>Characters</NavLink>
                         </li>
                         <li>
-                            <NavLink exact to='/houses'>Houses</NavLink>
+                            <NavLink activeClassName="Nav-active" exact to='/houses'>Houses</NavLink>
                         </li>
                         <li>
-                            <NavLink exact to='/lore'>Lore</NavLink>
+                            <NavLink activeClassName="Nav-active" exact to='/lore'>Lore</NavLink>
                         </li>
                         <li>
-                            <NavLink exact to='/gallery'>Gallery</NavLink>
+                            <NavLink activeClassName="Nav-active" exact to='/gallery'>Gallery</NavLink>
                         </li>
                     </ul>
                 </nav> 
