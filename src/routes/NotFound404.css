@@ -33,7 +33,7 @@
     text-shadow: 0 .5rem .6rem rgba(0, 0, 0, .16);
 }
 
-.home-link {
+a.home-link:link, a.home-link:active, a.home-link:visited {
     text-decoration: none;
     display: inline-block;
     background-color: #00172C;
@@ -41,4 +41,9 @@
     font-size: 2rem;
     margin-top: 2rem;
     padding: 1rem 2.2rem .6rem;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .2s;
+}
+
+a.home-link:hover {
+    transform: translateY(1rem);
 }
