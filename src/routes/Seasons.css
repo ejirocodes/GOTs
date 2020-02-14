@@ -1,0 +1,33 @@
+.Seasons {
+    background-color: #141A27;
+    display: flex;
+}
+
+figure img {
+    opacity: .45;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .4s;
+}
+
+figure {
+    position: relative;
+    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .4s;
+
+}
+
+figure:hover {
+    transform: translateX(4rem);
+}
+
+a figcaption {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 100%;
+    font-size: 3rem;
+    color: #fff;
+}
+
+img:hover {
+    opacity: 1;
+}
