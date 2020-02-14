@@ -12,7 +12,7 @@ export class Seasons extends Component {
     render() {
         return (
             <>
-                <Navbar />
+                <Navbar navbarColor={false} />
                 <section className="Seasons">
                     <figure className="item-1">
                         <NavLink to="/season1">
