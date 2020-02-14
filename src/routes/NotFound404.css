@@ -38,4 +38,7 @@
     display: inline-block;
     background-color: #00172C;
     color: #AACCE7;
+    font-size: 2rem;
+    margin-top: 2rem;
+    padding: 1rem 2.2rem .6rem;
 }
