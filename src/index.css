@@ -5,8 +5,15 @@
 @font-face {
   font-family: 'Game-of-Thrones';
   src: local('Game of Thrones'), 
-       url('./Assets/fonts//Game_of_Thrones.ttf') 
+       url('./Assets/fonts/Game_of_Thrones.ttf') 
        format('truetype');
+}
+
+@font-face {
+       font-family: 'League-Spartan';
+       src: local('League Spartan'), 
+       url('./Assets/fonts/LeagueSpartan-Bold.otf') 
+       format('opentype');
 }
 
 * {
