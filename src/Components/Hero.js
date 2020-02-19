@@ -23,16 +23,16 @@ export class Hero extends Component {
                     </a>
                 </div>
                 <div className="Hero-right">
-                    <a href="http://">
+                    <a href="http://" title="Game of Thrones on Facebook">
                         <img src={FacebookIcon} alt="Facebook page" />
                     </a>
-                     <a href="http://">
+                     <a href="http://" title="Game of Thrones on Instagram">
                         <img src={InstaIcon} alt="Instagram page" />
                     </a>
-                     <a href="http://">
+                     <a href="http://" title="Game of Thrones on Youtube">
                         <img src={YoutubeIcon} alt="Youtube channel" />
                     </a>
-                     <a href="http://">
+                     <a href="http://" title="Game of Thrones on Netflix">
                         <img className="netflix-img" src={NetflixIcon} alt="Stream on netflix" />
                     </a>
                 </div>

@@ -9,7 +9,7 @@ export class Navbar extends Component {
             <>
                <nav className="Nav-main"> 
                     <NavLink className="Nav-logo" exact to="/">
-                        <img src={logo} alt="logo" />
+                        <img src={logo} alt="logo" title="HBO" />
                     </NavLink>
                     <ul className="Navlink-container">
                         <li>
