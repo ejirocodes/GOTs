@@ -1,80 +1,74 @@
 *::selection {
-    color: #2E99C8;
+  color: #2e99c8;
 }
 
 .LearnMore-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #000; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
 }
 
 .learn-more-text {
-    margin-right: 25rem;
-  
+  margin-right: 25rem;
 }
-
 
 .learn-more-text h2 {
-    font-family: 'Game-of-Thrones', serif;
-    font-size: 6.4rem;
-    font-weight: 400;
-    text-align: left;
-    line-height: 1.3;
-    margin-bottom: 2rem;
+  font-family: 'Game-of-Thrones', serif;
+  font-size: 6.4rem;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1.3;
+  margin-bottom: 2rem;
 }
-
 
 .learn-more-btn {
-    padding: 2rem 3rem;
-    background-color: #2E99C8;
-    color: #fff;
-    font-weight: 400;
-    text-decoration: none;
-    font-family: 'Game-of-Thrones', serif;
-    font-size: 1rem;
-    letter-spacing: .3rem;
-    border-radius: 1.2rem;
-    box-shadow: 0.1rem .3rem 5rem rgba(46, 154, 200, 0.80);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 23rem;    
-    cursor: pointer;
-    user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;
-    transition: all ease-in-out .2s;
+  padding: 2rem 3rem;
+  background-color: #2e99c8;
+  color: #fff;
+  font-weight: 400;
+  text-decoration: none;
+  font-family: 'Game-of-Thrones', serif;
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+  border-radius: 1.2rem;
+  box-shadow: 0.1rem 0.3rem 5rem rgba(46, 154, 200, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 23rem;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  transition: all ease-in-out 0.2s;
 }
-
-
 
 .learn-more-btn:hover {
-    transform: translateY(1rem);
-    box-shadow: 0 .2rem 2rem rgba(46, 154, 200, 0.80);
+  transform: translateY(1rem);
+  box-shadow: 0 0.2rem 2rem rgba(46, 154, 200, 0.8);
 }
-
 
 /* Media Queries */
 @media all and (max-width: 768px) {
-.learn-more-text {
+  .learn-more-text {
     margin: 0 4rem 0 2rem;
-}
-  .learn-more-text h2 { 
-      font-size: 5rem;
+  }
+  .learn-more-text h2 {
+    font-size: 5rem;
   }
 }
 
 @media all and (max-width: 425px) {
-.LearnMore-container {
+  .LearnMore-container {
     position: relative;
-}
-.learn-more-text {
+  }
+  .learn-more-text {
     position: absolute;
     left: 2rem;
-}
-.learn-more-text h2 {
+  }
+  .learn-more-text h2 {
     text-shadow: 2px 1px 12px rgb(0, 0, 0), -2px 1px 12px rgb(0, 0, 0);
-}
+  }
 }
