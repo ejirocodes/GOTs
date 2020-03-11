@@ -1,0 +1,28 @@
+.Houses {
+  background: url('../Assets/images/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+.Houses--bg-overlay {
+  background-color: rgba(20, 26, 39, 0.74);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.Houses__card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.Houses__card-container img {
+
+    width: 22rem;
+}
+.Houses__card-container img:not(:last-child) {
+    margin-right: 5rem;
+}
