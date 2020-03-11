@@ -38,6 +38,13 @@ export class Houses extends Component {
               </figure>
             </NavLink>
           </div>
+          <h3 className="footer-heading">
+            <span>
+              Game of
+              <br />
+              Thrones
+            </span>
+          </h3>
         </section>
       </>
     );

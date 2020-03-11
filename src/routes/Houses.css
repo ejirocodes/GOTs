@@ -15,26 +15,57 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  margin-bottom: 4rem;
 }
 .Houses__card-container img {
-  width: 22rem;
+  width: 21rem;
   opacity: 1 !important;
 }
-.Houses__card-container img :hover {
-  width: 22rem;
-}
+
 .Houses__card-container a:not(:last-child) {
-  margin-right: 5rem;
+  margin-right: 3.5rem;
 }
 .back-btn {
-  font-size: 1.4rem;
+  display: flex;
+  font-size: 1.2rem;
   font-family: 'Game-of-thrones', serif;
+  margin-bottom: 8rem;
 }
 .back-btn a {
   color: #fff;
   text-decoration: none;
 }
 .back-btn img {
-    width: 4rem;
+  width: 3rem;
+}
+.footer-heading {
+  font-family: 'Game-of-thrones', serif;
+  font-size: 2.5rem;
+}
+.footer-heading {
+  line-height: 1.2;
+  text-align: center;
+}
+.footer-heading span {
+  display: inline-block;
+  position: relative;
+}
+.footer-heading span:before,
+.footer-heading span:after {
+  content: '';
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+  top: 0;
+  width: 40rem;
+  margin-top: 2rem;
+}
+.footer-heading span:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.footer-heading span:after {
+  left: 100%;
+  margin-left: 15px;
 }
