@@ -7,7 +7,7 @@ class Characters extends Component {
   render() {
     return (
       <>
-        <section className="Characters Houses">
+        <section className="Characters">
           <div className="back-btn">
             <NavLink to="/">
               <p>BACK</p> <img src={backIcon} alt="" />
