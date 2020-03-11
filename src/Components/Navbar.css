@@ -31,8 +31,7 @@
 }
 
 li a.Nav-active {
-    color: #acaaaa;
-    border-bottom: 1px solid;
+    color: var(--btn-color-main);
 }
 
 /* Media Queries */
