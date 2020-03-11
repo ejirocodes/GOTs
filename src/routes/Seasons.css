@@ -38,6 +38,18 @@ img:hover {
 
 @media all and (max-width: 768px) {
     a figcaption {
-        font-size: 2rem;
+        font-size: 1.5rem;
+    }
+   
+}
+@media all and (max-width: 425px) {
+     .Seasons {
+        flex-direction: column;
+    }
+    figure.item-1 {
+        width: auto;
+    }
+    a figcaption {
+        font-size: 5rem;
     }
 }
