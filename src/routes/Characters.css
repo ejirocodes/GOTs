@@ -9,3 +9,8 @@
   background-size: cover;
   padding: 2rem;
 }
+.Characters__bg--left {
+    background-color: #141A27;
+    width: 30%;
+    height: 100%;
+}
