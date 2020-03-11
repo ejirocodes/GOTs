@@ -1,118 +1,113 @@
 .Hero-main {
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
 }
 
 .Hero-left {
-    padding: 0 4rem;
-    align-self: center;
-    text-align: left;
+  padding: 0 4rem;
+  align-self: center;
+  text-align: left;
 }
 
 .Hero-left h1 {
-    font-family: 'Game-of-Thrones', serif;
-    font-size: 6.6rem;
-    font-weight: 400;
-    line-height: 1.3;
-    margin-bottom: 2rem;
+  font-family: 'Game-of-Thrones', serif;
+  font-size: 6.6rem;
+  font-weight: 400;
+  line-height: 1.3;
+  margin-bottom: 2rem;
 }
 
-.Hero-left h2{
-    font-weight: 600;
-    font-size: 2.2rem;
-    line-height: 1.3;
-    margin-bottom: 2rem;
-
+.Hero-left h2 {
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 1.3;
+  margin-bottom: 2rem;
 }
 
 .cta-btn {
-    padding: 2rem 3rem;
-    background-color: var(--btn-color-main);
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Game-of-Thrones', serif;
-    font-size: 1rem;
-    font-weight: 400;
-    letter-spacing: .3rem;
-    border-radius: 1.2rem;
-    box-shadow: 0 .3rem 4.9rem rgba(243, 108, 55, 0.80);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 25rem;    
-    cursor: pointer;
-    user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;
-    transition: all ease-in-out .2s;
+  padding: 2rem 3rem;
+  background-color: var(--btn-color-main);
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Game-of-Thrones', serif;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.3rem;
+  border-radius: 1.2rem;
+  box-shadow: 0 0.3rem 4.9rem rgba(243, 108, 55, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25rem;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  transition: all ease-in-out 0.2s;
 }
 
-
-
 .cta-btn:hover {
-    transform: translateY(1rem);
-    box-shadow: 0 .2rem 2rem rgba(243, 108, 55, 0.80);
+  transform: translateY(1rem);
+  box-shadow: 0 0.2rem 2rem rgba(243, 108, 55, 0.8);
 }
 
 .play-icon img {
-    width: 1.8rem;
-    margin-right: 2.6rem;
-
+  width: 1.8rem;
+  margin-right: 2.6rem;
 }
 
 .Hero-right {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 2rem;
 }
 
 .Hero-right img {
-    width: 2rem;
-    margin-bottom: 2rem;
+  width: 2rem;
+  margin-bottom: 2rem;
 }
 
 .Hero-right .netflix-img {
-    width: 1.3rem;
-    margin-bottom: 0;
+  width: 1.3rem;
+  margin-bottom: 0;
 }
-
 
 /* Media Queries */
 
 @media all and (max-width: 425px) {
-    .Hero-main {
-        flex-direction: column;
-    }
-    .Hero-right {
+  .Hero-main {
+    flex-direction: column;
+  }
+  .Hero-right {
     flex-direction: row;
     justify-content: flex-start;
     margin: 0;
     padding: 2rem;
-}
-.Hero-right img {
+  }
+  .Hero-right img {
     margin: 0 1.4rem 0 0;
-}
-.Hero-left h1 {
+  }
+  .Hero-left h1 {
     font-size: 5rem;
-}
-.Hero-left h2 {
+  }
+  .Hero-left h2 {
     font-size: 1.4rem;
-}
-.Hero-left {
+  }
+  .Hero-left {
     align-self: flex-start;
-        margin: 2rem 0;
-}
-.cta-btn {
+    margin: 2rem 0;
+  }
+  .cta-btn {
     width: 20rem;
     padding: 1.6rem 2.2rem;
     letter-spacing: 1px;
-}
-.play-icon img {
+  }
+  .play-icon img {
     width: 1.4rem;
     margin-right: 2rem;
+  }
 }
-} 

@@ -1,17 +1,15 @@
 .Houses {
-  background: url('../Assets/images/background.png');
+  background: linear-gradient(
+      to right,
+      rgba(20, 26, 39, 0.74),
+      rgba(20, 26, 39, 0.74)
+    ),
+    url('../Assets/images/background.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-}
-.Houses--bg-overlay {
-  background-color: rgba(20, 26, 39, 0.74);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  padding: 2rem;
 }
 .Houses__card-container {
   display: flex;
@@ -20,9 +18,23 @@
   height: 100vh;
 }
 .Houses__card-container img {
-
-    width: 22rem;
+  width: 22rem;
+  opacity: 1 !important;
 }
-.Houses__card-container img:not(:last-child) {
-    margin-right: 5rem;
+.Houses__card-container img :hover {
+  width: 22rem;
+}
+.Houses__card-container a:not(:last-child) {
+  margin-right: 5rem;
+}
+.back-btn {
+  font-size: 1.4rem;
+  font-family: 'Game-of-thrones', serif;
+}
+.back-btn a {
+  color: #fff;
+  text-decoration: none;
+}
+.back-btn img {
+    width: 4rem;
 }
