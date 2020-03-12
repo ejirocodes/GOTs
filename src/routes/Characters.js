@@ -35,7 +35,7 @@ class Characters extends Component {
             <div className="Characters-img">
               {cahractersImages.map(cahractersImage => (
                 <div className="img-wrapper" key={cahractersImage.title}>
-                  <NavLink to={cahractersImage.title}>
+                  <NavLink to={`characters/${cahractersImage.title}`}>
                     <img
                       src={cahractersImage.url}
                       key={cahractersImage.title}

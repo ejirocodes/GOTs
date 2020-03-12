@@ -7,6 +7,7 @@ import Houses from './routes/Houses';
 import Characters from './routes/Characters';
 import Lore from './routes/Lore';
 import NotFound404 from './routes/NotFound404';
+import Arya from './routes/Arya';
 import './App.css';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route path="/houses" exact component={Houses} />
         <Route path="/lore" exact component={Lore} />
         <Route path="/gallery" exact component={Gallery} />
+        <Route path="/characters/arya" exact component={Arya} />
         <Route path="*" exact component={NotFound404} />
       </Switch>
     </div>
