@@ -7,10 +7,18 @@
     url('../Assets/images/background-2.png');
   height: 100vh;
   background-size: cover;
-  padding: 2rem;
 }
 .Characters__bg--left {
-    background-color: #141A27;
-    width: 30%;
-    height: 100%;
+  background-color: #141a27;
+  width: 30%;
+  height: 100%;
+  float: left;
+}
+.back-btn {
+  padding: 2rem;
+  margin: 0;
+}
+.Characters-heading {
+  font-family: 'Game-of-Thrones', serif;
+  font-weight: 400;
 }

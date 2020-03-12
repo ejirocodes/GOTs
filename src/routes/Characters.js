@@ -8,12 +8,14 @@ class Characters extends Component {
     return (
       <>
         <section className="Characters">
-          <div className="Characters__bg--left"></div>
-          <div className="back-btn">
-            <NavLink to="/">
-              <p>BACK</p> <img src={backIcon} alt="" />
-            </NavLink>
+          <div className="Characters__bg--left">
+            <div className="back-btn">
+              <NavLink to="/">
+                <p>BACK</p> <img src={backIcon} alt="" />
+              </NavLink>
+            </div>
           </div>
+          <h3 className="Characters-heading">Characters</h3>
         </section>
       </>
     );
