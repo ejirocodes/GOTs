@@ -1,0 +1,10 @@
+.Arya {
+    background-image: url('../Assets/images/190516-arya-got-season-8-ep-5-cs-936a_eb664aa3859238ba5e000f16fd2eac2b.fit-760w.png');
+    height: 100vh;
+    background-size: cover;
+    background-position: left;
+}
+.Arya-right h2 {
+    font-family: 'Game-of-thrones', serif;
+    font-weight: 400;
+}
