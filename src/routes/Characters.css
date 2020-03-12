@@ -21,4 +21,33 @@
 .Characters-heading {
   font-family: 'Game-of-Thrones', serif;
   font-weight: 400;
+  display: inline-block;
+  border-bottom: 2px solid #fff;
+  border-radius: 2rem;
+  padding: 0.6rem;
+  font-size: 2rem;
+  margin-bottom: 7rem;
+}
+.Characters-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 12rem;
+}
+.Characters-content img:first-child,
+.Characters-content img:last-child {
+  width: 14rem;
+}
+.Characters-content img:nth-child(2) {
+  width: 18rem;
+  margin: 0 4rem;
+}
+.Characters-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Characters-img img:hover {
+  
 }
