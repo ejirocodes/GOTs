@@ -19,6 +19,7 @@ class Characters extends Component {
         url: require('../Assets/images/mad-king-aerys-targaryen.png')
       }
     ];
+
     return (
       <>
         <section className="Characters">
@@ -33,8 +34,14 @@ class Characters extends Component {
             <h3 className="Characters-heading">Characters</h3>
             <div className="Characters-img">
               {cahractersImages.map(cahractersImage => (
-                <div class="img-wrapper">
-                  <img src={cahractersImage.url} alt={cahractersImage.title} />
+                <div className="img-wrapper" key={cahractersImage.title}>
+                  <NavLink to={cahractersImage.title}>
+                    <img
+                      src={cahractersImage.url}
+                      key={cahractersImage.title}
+                      alt={cahractersImage.title}
+                    />
+                  </NavLink>
                   <h4>{cahractersImage.title}</h4>
                 </div>
               ))}
