@@ -48,7 +48,6 @@
   font-size: 2rem;
   font-weight: 400;
   margin-top: 1rem;
-
 }
 .Characters-img {
   display: flex;
@@ -63,4 +62,58 @@
   -webkit-box-shadow: 0 8px 6px -6px black;
   -moz-box-shadow: 0 8px 6px -6px black;
   box-shadow: 0 8px 6px -6px black;
+}
+@media screen and (max-width: 768px) {
+  .img-wrapper img[alt='Aemon'],
+  .img-wrapper img[alt='Aerys'] {
+    width: 14rem;
+  }
+  .img-wrapper img[alt='Arya'] {
+    width: 18rem;
+    margin: 0 2rem;
+  }
+  .Characters__bg--left {
+    width: 18%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .img-wrapper img[alt='Arya'] {
+    width: 17rem;
+    margin: 0 1rem;
+  }
+  .img-wrapper h4 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Characters-content {
+    padding-top: 2rem;
+  }
+  .Characters-heading {
+    margin-bottom: 4rem;
+  }
+  .Characters-img {
+    flex-direction: column;
+  }
+  .Characters__bg--left {
+    float: none;
+  }
+  .Characters {
+    height: 100%;
+    overflow-x: hidden;
+  }
+  .Characters__bg--left {
+    width: 0;
+  }
+  .img-wrapper img[alt='Aemon'],
+  .img-wrapper img[alt='Aerys'] {
+    width: 20rem;
+  }
+  .img-wrapper img[alt='Arya'] {
+    width: 24rem;
+    margin: 0 2rem;
+  }
+  .img-wrapper h4 {
+    margin-bottom: 4rem;
+  }
 }
