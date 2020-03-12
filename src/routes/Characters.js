@@ -33,7 +33,10 @@ class Characters extends Component {
             <h3 className="Characters-heading">Characters</h3>
             <div className="Characters-img">
               {cahractersImages.map(cahractersImage => (
-                <img src={cahractersImage.url} alt={cahractersImage.title} />
+                <div class="img-wrapper">
+                  <img src={cahractersImage.url} alt={cahractersImage.title} />
+                  <h4>{cahractersImage.title}</h4>
+                </div>
               ))}
             </div>
           </div>
