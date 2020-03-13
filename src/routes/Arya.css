@@ -1,5 +1,11 @@
 .Arya {
-  background-image: url('../Assets/images/190516-arya-got-season-8-ep-5-cs-936a_eb664aa3859238ba5e000f16fd2eac2b.fit-760w.png');
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0) 70%,
+      rgba(255, 255, 255, 0.9136029411764706) 88%
+    ),
+    url('../Assets/images/190516-arya-got-season-8-ep-5-cs-936a_eb664aa3859238ba5e000f16fd2eac2b.fit-760w.png');
   background-size: cover;
   height: 100vh;
   background-position: left;
@@ -33,16 +39,40 @@
   font-size: 1.7rem;
 }
 .Arya-right p:not(:last-of-type) {
-    margin-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 .first__letter--bold {
   font-family: 'Game-of-Thrones', serif;
   font-size: 7rem;
   margin-right: 2rem;
-  line-height: .5;
+  line-height: 0.5;
 }
 .first-bold {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+@media screen and (max-device-width: 1024px) {
+  .Arya-right p {
+    font-size: 1.2rem;
+  }
+  .first__letter--bold {
+    font-size: 5rem;
+  }
+  .Arya-right {
+    width: 70%;
+  }
+}
+@media screen and (max-device-width: 500px) {
+  .Arya {
+    display: flex;
+    height: 100%;
+  }
+  .Arya-right {
+    padding: 2rem;
+    width: 100%;
+  }
+  .back-btn {
+    padding: 1.2rem;
+  }
 }
