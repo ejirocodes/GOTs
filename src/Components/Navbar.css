@@ -1,60 +1,61 @@
 .Nav-main {
-    display: flex;
-    align-items: center;
-    padding: 5rem 4rem;
+  display: flex;
+  align-items: center;
+  padding: 5rem 4rem;
 }
 
 .Navlink-container {
-    display: flex;
-    list-style: none;
+  display: flex;
+  list-style: none;
 }
 
 .Navlink-container li a {
-    margin-right: 7rem;
-    font-size: 2.2rem;
-    color: #fff;
-    text-decoration: none;
+  margin-right: 7rem;
+  font-size: 2.2rem;
+  color: #fff;
+  text-decoration: none;
 }
 
 .Nav-logo {
-    margin-right: 8.5rem;
+  margin-right: 8.5rem;
 }
 
 .Nav-logo img {
-    width: 11rem;
+  width: 11rem;
 }
 
 @media all and (max-width: 768px) {
-    .Navlink-container {
-        display: none;
-    }
+  .Navlink-container {
+    display: none;
+  }
 }
 
 li a.Nav-active {
-    color: var(--btn-color-main);
+  color: var(--btn-color-main);
+  text-shadow: 0px 0px 8px var(--btn-color-main);
 }
 
 /* Media Queries */
 @media all and (max-width: 500px) {
-    .Navlink-container {
-        display: none;
-    }
+  .Navlink-container {
+    display: none;
+  }
 
-    .Nav-main {
-        padding: 3rem 2rem;
-    }
+  .Nav-main {
+    padding: 3rem 2rem;
+  }
 
-    .Hero-left {
-        padding: 0 2rem !important;
-    }
+  .Hero-left {
+    padding: 0 2rem !important;
+  }
 
-    .Hero-main {
-        margin-top: 2rem;
-    }
+  .Hero-main {
+    margin-top: 2rem;
+  }
 }
 
 @media all and (max-width: 425px) {
-    .Nav-logo img {
-        width: 9rem;
-    }
+  .Nav-logo img {
+    width: 9rem;
+  }
 }
