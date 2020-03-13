@@ -19,8 +19,9 @@ export class Arya extends Component {
             </h2>
             <h3>~ Arya Stark</h3>
           </div>
-          <p>
-            Arya Stark is the youngest daughter and third child of Lady Catelyn
+          <p className="first-bold">
+            <span className="first__letter--bold">A</span>
+            rya Stark is the youngest daughter and third child of Lady Catelyn
             and Lord Ned Stark.
           </p>
           <p>
