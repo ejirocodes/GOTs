@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Navbar from '../Components/Navbar';
+import Seasons from './Seasons';
 
 
 export class Lore extends Component {
     render() {
         return (
-            <Navbar />
+            <Seasons />
         )
     }
 }

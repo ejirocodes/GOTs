@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
-import Navbar from '../Components/Navbar'
+import Houses from './Houses'
 
 class Gallery extends Component {
     render() {
         return (
             <>
-                <Navbar />
+                <Houses />  
             </>
         )
     }
