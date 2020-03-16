@@ -1,6 +1,7 @@
 .Nav-main {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 5rem 4rem;
 }
 .Navlink-container {
@@ -14,19 +15,8 @@
   color: #fff;
   text-decoration: none;
 }
-
-.Nav-logo {
-  margin-right: 8.5rem;
-}
-
 .Nav-logo img {
   width: 11rem;
-}
-
-@media all and (max-width: 768px) {
-  .Navlink-container {
-    display: none;
-  }
 }
 
 li a.Nav-active {
@@ -35,26 +25,42 @@ li a.Nav-active {
 }
 
 /* Media Queries */
-@media all and (max-width: 500px) {
-  .Navlink-container {
-    display: none;
-  }
-
+@media all and (max-width: 768px) {
   .Nav-main {
-    padding: 3rem 2rem;
+    flex-direction: column;
+    padding: 3rem;
   }
+  .Nav-logo {
+    margin: 0 0 2rem 0;
+  }
+  .Navlink-container li a {
+    margin-right: 4rem;
+    font-size: 2rem;
+  }
+  li a.last-nav-item {
+    margin-right: 0;
+  }
+}
 
+@media all and (max-width: 500px) {
   .Hero-left {
     padding: 0 2rem !important;
   }
-
   .Hero-main {
-    margin-top: 2rem;
+    padding: 4rem 0;
+  }
+  .Navlink-container li a {
+    margin-right: 2rem;
+    font-size: 2rem;
   }
 }
 
 @media all and (max-width: 425px) {
   .Nav-logo img {
     width: 9rem;
+  }
+  .Navlink-container li a {
+    margin-right: 1.2rem;
+    font-size: 1.5rem;
   }
 }
