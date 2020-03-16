@@ -86,7 +86,7 @@
     flex-direction: row;
     justify-content: flex-start;
     margin: 0;
-    padding: 2rem;
+    padding: 0 2rem;
   }
   .Hero-right img {
     margin: 0 1.4rem 0 0;

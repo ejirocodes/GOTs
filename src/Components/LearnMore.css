@@ -66,9 +66,13 @@
   }
   .learn-more-text {
     position: absolute;
-    left: 2rem;
   }
   .learn-more-text h2 {
     text-shadow: 2px 1px 12px rgb(0, 0, 0), -2px 1px 12px rgb(0, 0, 0);
+  }
+  .learn-more-btn {
+    width: 20rem;
+    padding: 1.6rem 2.2rem;
+    letter-spacing: 1px;
   }
 }
