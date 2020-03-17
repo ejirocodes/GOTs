@@ -18,14 +18,9 @@
       "sizes": "192x192"
     },
     {
-      "src": "logo512",
-      "type": "image/png",
-      "sizes": "229x229"
-    },
-    {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512 229x229"
     }
   ],
   "start_url": ".",
