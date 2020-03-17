@@ -10,8 +10,9 @@
 }
 
 .Navlink-container li a {
-  margin-right: 7rem;
+  font-weight: 600;
   font-size: 2.2rem;
+  margin-right: 7rem;
   color: #fff;
   text-decoration: none;
 }
