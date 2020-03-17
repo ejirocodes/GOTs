@@ -9,7 +9,7 @@ export class Footer extends Component {
     };
     const h1Style = {
       fontWeight: '400',
-      fontFamily: 'League-Spartan'
+      fontFamily: 'Open Sans, sans-serif'
     };
     const a = {
       textDecoration: 'none',
@@ -23,7 +23,12 @@ export class Footer extends Component {
             💚
           </span>
           by{' '}
-          <a style={a} href="http://twitter/EjiroCodes">
+          <a
+            style={a}
+            target="_blank"
+            rel="noopener noreferrer"
+            href="http://twitter.com/EjiroCodes"
+          >
             Ejiro Asiuwhu
           </a>
         </h1>
