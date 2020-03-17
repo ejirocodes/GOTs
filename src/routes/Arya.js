@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Arya.css';
 import backIcon from '../Assets/elements/back_icon.png';
+import Footer from '../Components/Footer';
 
 export class Arya extends Component {
   render() {
     return (
+      <>
       <section className="Arya">
         <div className="back-btn">
           <NavLink to="/characters">
@@ -40,7 +42,9 @@ export class Arya extends Component {
             outsider.
           </p>
         </div>
-      </section>
+        </section>
+        <Footer />  
+      </>
     );
   }
 }

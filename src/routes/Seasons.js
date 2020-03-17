@@ -7,6 +7,7 @@ import s3 from '../Assets/images/jon.png';
 import s4 from '../Assets/images/jamie.png';
 import s5 from '../Assets/images/sansa.png';
 import './Seasons.css';
+import Footer from '../Components/Footer';
 
 export class Seasons extends Component {
     render() {
@@ -45,6 +46,7 @@ export class Seasons extends Component {
                         </NavLink>
                     </figure>
                 </section>
+                <Footer />
             </>
         )
     }

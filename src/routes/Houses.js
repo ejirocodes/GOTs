@@ -6,6 +6,7 @@ import card2 from '../Assets/images/Starrks.png';
 import card3 from '../Assets/images/boratheons.png';
 import card4 from '../Assets/images/lannasters.png';
 import backIcon from '../Assets/elements/back_icon.png';
+import Footer from '../Components/Footer';
 export class Houses extends Component {
   render() {
     return (
@@ -46,6 +47,7 @@ export class Houses extends Component {
             </span>
           </h3>
         </section>
+        <Footer />
       </>
     );
   }

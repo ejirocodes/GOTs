@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import backIcon from '../Assets/elements/back_icon.png';
 import './Characters.css';
+import Footer from '../Components/Footer';
 
 class Characters extends Component {
   render() {
@@ -48,6 +49,7 @@ class Characters extends Component {
             </div>
           </div>
         </section>
+        <Footer /> 
       </>
     );
   }
