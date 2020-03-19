@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 :root {
-  --btn-color-main: #F36B37;
+  --btn-color-main: #f36b37;
 }
 
 @font-face {
@@ -38,11 +38,13 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  background-color: #141A27;
+  background-color: #141a27;
   color: #fff;
   line-height: 2;
 }
-
+.modal-video-movie-wrap {
+  padding-bottom: 0 !important;
+}
 @media all and (max-width: 320px) {
   html {
     font-size: 58.5%;

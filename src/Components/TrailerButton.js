@@ -21,15 +21,13 @@ export class TrailerButton extends Component {
           channel="youtube"
           isOpen={this.state.isOpen}
           videoId="rlR4PJn8b8I"
+          playlist="null"
+          maxheight="10px"
+          maxwidth="15px"
+          theme='light'
           onClose={() => this.setState({ isOpen: false })}
         />
-        <button
-          
-          //   target="_blank"
-          //   rel="noopener noreferrer"
-          className="cta-btn"
-          onClick={this.openModal}
-        >
+        <button className="cta-btn" onClick={this.openModal}>
           <span className="play-icon" role="img">
             <img src={PlayIcon} alt="play icon" />
           </span>{' '}
