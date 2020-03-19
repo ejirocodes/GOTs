@@ -30,6 +30,7 @@
   background-color: var(--btn-color-main);
   color: #fff;
   text-decoration: none;
+  border: none;
   font-family: 'Game-of-Thrones', serif;
   font-size: 1rem;
   font-weight: 400;

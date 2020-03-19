@@ -23,8 +23,8 @@ export class TrailerButton extends Component {
           videoId="rlR4PJn8b8I"
           onClose={() => this.setState({ isOpen: false })}
         />
-        <a
-          href="javascript:void(0)"
+        <button
+          
           //   target="_blank"
           //   rel="noopener noreferrer"
           className="cta-btn"
@@ -34,7 +34,7 @@ export class TrailerButton extends Component {
             <img src={PlayIcon} alt="play icon" />
           </span>{' '}
           <p>Watch Trailer</p>
-        </a>
+        </button>
       </React.Fragment>
     );
   }
