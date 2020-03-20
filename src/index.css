@@ -38,7 +38,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  background-color: #141a27;
+  background-color: #141a27 !important;
   color: #fff !important;
   line-height: 2;
 }

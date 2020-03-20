@@ -1,83 +1,86 @@
 .Not-Found {
-    background: url('../Assets/images/Night_s_King_Sky_A_3325474k.png');
-    background-size: cover;
-    background-position: right;  
-    background-repeat: no-repeat;  
-    height: 100vh;
-    position: relative;
+  background: url('../Assets/images/Night_s_King_Sky_A_3325474k.png');
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  height: 100vh;
+  position: relative;
 }
 
 .got-img img {
-    position: absolute;
-    top: 3rem;
-    left: 2.2rem;
-    width: 28rem;
+  position: absolute;
+  top: 3rem;
+  left: 2.2rem;
+  width: 28rem;
 }
 
 .Not-Found__message {
-    font-family: 'League-Spartan', 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 26rem 4.4rem 0 0;
-    float: right;
+  font-family: 'League-Spartan', 'Open Sans', sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 26rem 4.4rem 0 0;
+  float: right;
 }
 
 .Not-Found__message h2 {
-    font-size: 2.8rem;
-    line-height: 1.8;
-    color: #00172C;
-    font-weight: bolder;
-    text-shadow: 0 .5rem .6rem rgba(0, 0, 0, .16);
+  font-size: 2.8rem;
+  line-height: 1.8;
+  color: #00172c;
+  font-weight: bolder;
+  text-shadow: 0 0.5rem 0.6rem rgba(0, 0, 0, 0.16);
 }
 
-a.home-link:link,  a.home-link:visited {
-    text-decoration: none;
-    display: inline-block;
-    background-color: #00172C;
-    color: #AACCE7;
-    font-size: 2rem;
-    margin-top: 2rem;
-    padding: 1rem 2.2rem .6rem;
-    user-select: none;
-    -moz-user-focus: none;
-    -webkit-user-select: none;
-    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .2s;
+a.home-link:link,
+a.home-link:visited {
+  text-decoration: none;
+  display: inline-block;
+  background-color: #00172c;
+  color: #aacce7;
+  font-size: 2rem;
+  margin-top: 2rem;
+  padding: 1rem 2.2rem 0.6rem;
+  user-select: none;
+  -moz-user-focus: none;
+  -webkit-user-select: none;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.2s;
 }
 
-a.home-link:hover, a.home-link:active {
-    transform: translateY(1rem);
+a.home-link:hover,
+a.home-link:active {
+  transform: translateY(1rem);
 }
 
 @media all and (max-width: 768px) {
-    .Not-Found__message {
+  .Not-Found__message {
     padding-top: 50vh;
-    margin: 0; 
+    margin: 0;
     float: none;
+  }
+  .Not-Found {
+    background-position: center;
+  }
 }
-.Not-Found {
-    background-position: left;
-}
-}
-
 
 @media all and (max-width: 460px) {
-    .Not-Found__message h2 {
-        font-size: 2.4rem;
-    }
-    a.home-link:link, a.home-link:visited {
-        font-size: 1.4rem;
-        margin-top: 1rem
-    }
+  .Not-Found__message h2 {
+    font-size: 2.4rem;
+  }
+  a.home-link:link,
+  a.home-link:visited {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+  }
 }
 
 @media all and (max-width: 375px) {
-    .Not-Found__message h2 {
-        font-size: 2rem;
-    }
-    a.home-link:link, a.home-link:visited {
-        font-size: 1rem;
-    }
+  .Not-Found__message h2 {
+    font-size: 2rem;
+  }
+  a.home-link:link,
+  a.home-link:visited {
+    font-size: 1rem;
+  }
 }
