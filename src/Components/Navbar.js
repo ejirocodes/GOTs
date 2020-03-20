@@ -33,7 +33,12 @@ export class Navbar extends Component {
               </NavLink>
             </li>
             <li>
-              <NavLink className="last-nav-item" activeClassName="Nav-active" exact to="/gallery">
+              <NavLink
+                className="last-nav-item"
+                activeClassName="Nav-active"
+                exact
+                to="/gallery"
+              >
                 Gallery
               </NavLink>
             </li>

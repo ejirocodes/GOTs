@@ -41,7 +41,7 @@ const TrailerButton = () => {
   };
   const titleStyle = {
     color: 'var(--btn-color-main)'
-  }
+  };
 
   return (
     <React.Fragment>
