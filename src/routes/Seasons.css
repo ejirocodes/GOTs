@@ -1,55 +1,55 @@
 .Seasons {
-    background-color: #141A27;
-    display: flex;
+  background-color: #141a27;
+  display: flex;
+  overflow-x: scroll;
 }
 
 figure img {
-    opacity: .45;
-    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .4s;
-    width: 100%;
+  opacity: 0.45;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
+  width: 92%;
 }
 
 figure {
-    position: relative;
-    transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) .4s;
-    width: 20%;
+  position: relative;
+  transition: all cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.4s;
 }
 
 figure:hover {
-    transform: translateY(4rem);
+  transform: translateY(4rem);
 }
 
 a figcaption {
-    left: 0;
-    position: absolute;
-    text-align: center;
-    top: 50%;
-    width: 100%;
-    font-size: 3rem;
-    color: #fff;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  font-size: 3rem;
+  color: #fff;
 }
 
 img:hover {
-    opacity: 1;
+  opacity: 1;
 }
-
 
 /* Media queries */
 
 @media all and (max-width: 768px) {
-    a figcaption {
-        font-size: 1.5rem;
-    }
-   
+  a figcaption {
+    font-size: 1.5rem;
+  }
 }
 @media all and (max-width: 425px) {
-     .Seasons {
-        flex-direction: column;
-    }
-    figure.item-1 {
-        width: auto;
-    }
-    a figcaption {
-        font-size: 5rem;
-    }
+  a figcaption {
+    font-size: 1.4rem;
+  }
+}
+@media screen and (min-width: 1908px) {
+  figure img {
+    width: 100%;
+  }
+  figure {
+    width: 100%;
+  }
 }
