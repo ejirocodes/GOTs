@@ -1,28 +1,38 @@
 import React, { Component } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
 export class Footer extends Component {
   render() {
-    const footerStyle = {
+    let footerStyle = {
       padding: '2.5rem .5rem',
       backgroundColor: '#000',
       fontSize: '1rem'
     };
-    const h1Style = {
+    let h1Style = {
       fontWeight: '400',
       fontFamily: 'Open Sans, sans-serif'
     };
-    const a = {
+    let a = {
       textDecoration: 'none',
       color: '#16C60C'
     };
+    let heartStyle = {
+      color: '#16C60C',
+      margin: '0 3px',
+      fontSize: '10px',
+      animation: 'pound 0.35s infinite alternate',
+      '-webkit-animation': 'pound 0.35s infinite alternate'
+    };
     return (
       <footer style={footerStyle}>
-        <h1 style={h1Style}>
+        <small style={h1Style}>
           Made with{' '}
           <span role="img" aria-label="green heart emoji">
-            💚
-          </span>
-          by{' '}
+            {' '}
+            <FontAwesomeIcon icon={faCoffee} />{' '}
+          </span>{' '}
+          by
           <a
             style={a}
             target="_blank"
@@ -31,7 +41,7 @@ export class Footer extends Component {
           >
             Ejiro Asiuwhu
           </a>
-        </h1>
+        </small>
       </footer>
     );
   }
