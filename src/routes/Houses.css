@@ -9,17 +9,19 @@
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
-  padding: 2rem;
 }
 .Houses__card-container {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 4rem;
+  margin-bottom: 1.5rem;
 }
 .Houses__card-container img {
   width: 21rem;
   opacity: 1 !important;
+}
+figure:hover {
+  transform: translateY(0.4rem);
 }
 
 .Houses__card-container a:not(:last-child) {
@@ -29,7 +31,7 @@
   display: flex;
   font-size: 1.2rem;
   font-family: 'Game-of-thrones', serif;
-  margin-bottom: 7rem;
+  margin-bottom: 0 !important;
 }
 .back-btn a {
   color: #fff;
@@ -108,7 +110,7 @@
     flex-direction: column;
   }
   .Houses__card-container img {
-    width: 80%;
+    width: 60%;
   }
   figure {
     width: auto;

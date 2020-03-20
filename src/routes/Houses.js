@@ -12,7 +12,10 @@ export class Houses extends Component {
     return (
       <>
         <section className="Houses">
-          <div className="back-btn" style={{float: 'none', marginBottom: '7rem'}}>
+          <div
+            className="back-btn"
+            style={{ float: 'none', marginBottom: '7rem' }}
+          >
             <NavLink to="">
               <p>BACK</p> <img src={backIcon} alt="" />{' '}
             </NavLink>
