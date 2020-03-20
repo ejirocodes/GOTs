@@ -6,13 +6,12 @@ import PlayIcon from '../Assets/elements/play_icon.png';
 const TrailerButton = () => {
   const [isOpen, setIsOpen] = React.useState(false);
   const [title, setTitle] = React.useState('Transitioning...');
-  const [timer, setTimer] = React.useState(0);
   const [startTime, setStartTime] = React.useState(0);
   const [endTime, setEndTime] = React.useState(0);
 
   const showModal = () => {
     setIsOpen(true);
-    setTitle('Modal Ready');
+    setTitle('Game of Thrones | Season 8 | Official Trailer (HBO)');
     document.body.style.backgroundColor = 'white';
   };
 
@@ -26,7 +25,7 @@ const TrailerButton = () => {
 
   const modalLoaded = () => {
     setEndTime(Date.now());
-    setTitle('Modal Ready');
+    setTitle('Game of Thrones | Season 8 | Official Trailer (HBO)');
   };
   const onExit = () => {
     setTitle('Goodbye 😀');
@@ -51,16 +50,18 @@ const TrailerButton = () => {
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
+          <div className="embed-responsive embed-responsive-16by9">
           {endTime - startTime} ms
           <iframe
             width="560"
             height="315"
             src="https://www.youtube.com/embed/rlR4PJn8b8I"
-            frameborder="0"
+            frameBorder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowFullScreen
           ></iframe>
-        </Modal.Body>{' '}
+          </div>
+        </Modal.Body>
         <Modal.Footer>
           <button onClick={hideModal}>Cancel</button>
           <button>Save</button>
