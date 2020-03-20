@@ -49,7 +49,9 @@ const TrailerButton = () => {
         </Modal.Header>
         <Modal.Body>
           <div className="embed-responsive embed-responsive-16by9">
-            <Spinner animation="border" style={spinnerStyle}>
+            <Spinner animation="border" role="status" style={spinnerStyle}>
+              <span className="sr-only">Loading...</span>
+            </Spinner>
             <iframe
               width="560"
               height="315"
