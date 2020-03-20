@@ -1,4 +1,10 @@
-
+footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   width:100%;
+   background:#999;
+}
 @-webkit-keyframes pound {
   to {
     transform: scale(1.1);

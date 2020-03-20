@@ -6,7 +6,7 @@ import './Footer.css';
 export class Footer extends Component {
   render() {
     let footerStyle = {
-      padding: '2.5rem .5rem',
+      padding: '1.1rem .5rem',
       backgroundColor: '#000',
       fontSize: '1rem'
     };
@@ -27,7 +27,7 @@ export class Footer extends Component {
       WebkitAnimation: 'pound 0.35s infinite alternate'
     };
     return (
-      <footer style={footerStyle}>
+      <footer style={footerStyle} className="d-flex align-items-center justify-content-center">
         <small style={footerTxt}>
           Made with{' '}
           <span role="img" aria-label="green heart emoji">
