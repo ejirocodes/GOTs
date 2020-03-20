@@ -39,6 +39,9 @@ const TrailerButton = () => {
     fontSize: '1.2rem',
     letterSpacing: '.2rem'
   };
+  const titleStyle = {
+    color: 'var(--btn-color-main)'
+  }
 
   return (
     <React.Fragment>
@@ -50,7 +53,7 @@ const TrailerButton = () => {
         onExit={onExit}
       >
         <Modal.Header>
-          <Modal.Title>{title}</Modal.Title>
+          <Modal.Title style={titleStyle}>{title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div className="embed-responsive embed-responsive-16by9">
