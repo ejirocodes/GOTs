@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee } from '@fortawesome/free-solid-svg-icons';
+import { faHeart } from '@fortawesome/free-solid-svg-icons';
+import './Footer.css';
 
 export class Footer extends Component {
   render() {
@@ -9,28 +10,29 @@ export class Footer extends Component {
       backgroundColor: '#000',
       fontSize: '1rem'
     };
-    let h1Style = {
+    let footerTxt = {
       fontWeight: '400',
-      fontFamily: 'Open Sans, sans-serif'
+      fontFamily: 'Open Sans, sans-serif',
+      fontSize: '1.5rem'
     };
     let a = {
       textDecoration: 'none',
-      color: '#16C60C'
+      color: 'var(--btn-color-main)',
+      marginLeft: '.5rem'
     };
-    let heartStyle = {
-      color: '#16C60C',
+    let iconStyle = {
+      color: 'var(--btn-color-main)',
       margin: '0 3px',
-      fontSize: '10px',
       animation: 'pound 0.35s infinite alternate',
-      '-webkit-animation': 'pound 0.35s infinite alternate'
+      WebkitAnimation: 'pound 0.35s infinite alternate'
     };
     return (
       <footer style={footerStyle}>
-        <small style={h1Style}>
+        <small style={footerTxt}>
           Made with{' '}
           <span role="img" aria-label="green heart emoji">
             {' '}
-            <FontAwesomeIcon icon={faCoffee} />{' '}
+            <FontAwesomeIcon style={iconStyle} icon={faHeart} />{' '}
           </span>{' '}
           by
           <a

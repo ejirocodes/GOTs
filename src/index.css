@@ -42,6 +42,10 @@ body {
   color: #fff !important;
   line-height: 2;
 }
+a:hover {
+ color: currentColor !important;
+ text-decoration: none !important;
+}
 .modal-video-movie-wrap {
   padding-bottom: 0 !important;
 }
