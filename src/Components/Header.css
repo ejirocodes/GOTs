@@ -20,7 +20,11 @@
 }
 
 /* Media Queries */
-
+@media (orientation: landscape) {
+  .Header-main {
+    height: 100%;
+  }
+}
 @media all and (max-width: 500px) {
   .Header-main {
     height: 100%;
