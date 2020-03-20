@@ -30,6 +30,7 @@
   background-color: var(--btn-color-main);
   color: #fff;
   text-decoration: none;
+  line-height: normal;
   border: none;
   font-family: 'Game-of-Thrones', serif;
   font-size: 1rem;
@@ -48,17 +49,17 @@
   -webkit-user-select: none;
   transition: all ease-in-out 0.2s;
 }
-
+.cta-btn p {
+  margin: 0;
+}
 .cta-btn:hover {
   transform: translateY(1rem);
   box-shadow: 0 0.2rem 2rem rgba(243, 108, 55, 0.8);
 }
-
 .play-icon img {
   width: 1.8rem;
   margin-right: 2.6rem;
 }
-
 .Hero-right {
   display: flex;
   flex-direction: column;

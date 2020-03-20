@@ -39,7 +39,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   background-color: #141a27;
-  color: #fff;
+  color: #fff !important;
   line-height: 2;
 }
 .modal-video-movie-wrap {

@@ -5,18 +5,32 @@ import PlayIcon from '../Assets/elements/play_icon.png';
 
 const TrailerButton = () => {
   const [isOpen, setIsOpen] = React.useState(false);
+  const [title, setTitle] = React.useState('Transitioning...');
+
   const showModal = () => {
     setIsOpen(true);
   };
+
   const hideModal = () => {
     setIsOpen(false);
+    setTitle('Transitioning...');
   };
+
+  const modalLoaded = () => {
+    setTitle('Modal Ready');
+  };
+
   return (
     <React.Fragment>
       <Modal show={isOpen} onHide={hideModal}>
-        <Modal.Header>Hi</Modal.Header>
-        <Modal.Body>asdfasdf</Modal.Body>
-        <Modal.Footer>This is the footer</Modal.Footer>
+        <Modal.Header>
+          <Modal.Title>Hi</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>The body</Modal.Body>
+        <Modal.Footer>
+          <button onClick={hideModal}>Cancel</button>
+          <button>Save</button>
+        </Modal.Footer>
       </Modal>
 
       <button onClick={showModal} className="cta-btn">
