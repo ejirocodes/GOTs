@@ -25,13 +25,19 @@ const TrailerButton = () => {
   const onExit = () => {
     setTitle('Goodbye 😀');
   };
-
-  const onExited = () => {
-    document.body.style.backgroundColor = 'green';
-  };
   const spinnerStyle = {
     borderColor: 'var(--btn-color-main)',
-    borderRightColor: 'transparent'
+    borderRightColor: 'transparent',
+    marginRight: '.8rem'
+  };
+  const exitStyle = {
+    backgroundColor: 'var(--btn-color-main)',
+    border: 'none',
+    padding: '.6rem 1.3rem .4rem 1.3rem',
+    color: '#fff',
+    fontFamily: 'Game-of-Thrones',
+    fontSize: '1.2rem',
+    letterSpacing: '.2rem'
   };
 
   return (
@@ -42,13 +48,18 @@ const TrailerButton = () => {
         onHide={hideModal}
         onEntered={modalLoaded}
         onExit={onExit}
-        onExited={onExited}
       >
         <Modal.Header>
           <Modal.Title>{title}</Modal.Title>
         </Modal.Header>
         <Modal.Body>
           <div className="embed-responsive embed-responsive-16by9">
+            <Spinner animation="border" role="status" style={spinnerStyle}>
+              <span className="sr-only">Loading...</span>
+            </Spinner>
+            <Spinner animation="border" role="status" style={spinnerStyle}>
+              <span className="sr-only">Loading...</span>
+            </Spinner>
             <Spinner animation="border" role="status" style={spinnerStyle}>
               <span className="sr-only">Loading...</span>
             </Spinner>
@@ -59,11 +70,14 @@ const TrailerButton = () => {
               frameBorder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
+              title="gotsTrailer"
             ></iframe>
           </div>
         </Modal.Body>
         <Modal.Footer>
-          <button onClick={hideModal}>Close</button>
+          <button style={exitStyle} onClick={hideModal}>
+            Close
+          </button>
         </Modal.Footer>
       </Modal>
       <button onClick={showModal} className="cta-btn">
