@@ -53,9 +53,11 @@
 .cta-btn p {
   margin: 0;
 }
-.cta-btn:hover {
+.cta-btn:hover, .cta-btn:active, .cta-btn:focus {
   transform: translateY(1rem);
   box-shadow: 0 0.2rem 2rem rgba(243, 108, 55, 0.8);
+  outline: 0;
+  border: none;
 }
 .play-icon img {
   width: 1.8rem;
