@@ -7,12 +7,12 @@
     ),
     url('../Assets/images/190516-arya-got-season-8-ep-5-cs-936a_eb664aa3859238ba5e000f16fd2eac2b.fit-760w.png');
   background-size: cover;
-  height: 100vh;
+  height: 100%;
   background-position: left;
 }
 
 .Arya-right {
-  height: 100%;
+  height: 100vh;
   background: rgba(255, 255, 255, 0.9);
   color: #000;
   width: 50%;
