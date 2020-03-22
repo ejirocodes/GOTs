@@ -29,7 +29,15 @@ export class Navbar extends Component {
   render() {
     return (
       <>
-        <MDBNavbar className="Nav-main" color="default-color" dark expand="md">
+        <MDBNavbar
+          tag="div"
+          className="Nav-main"
+          color="default-color"
+          fixed="top"
+          dark
+          expand="md"
+          scrolling="true"
+        >
           <MDBNavbarBrand>
             <NavLink className="Nav-logo" exact to="/">
               <img src={logo} alt="logo" title="HBO" />
@@ -38,7 +46,7 @@ export class Navbar extends Component {
           <MDBNavbarToggler onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
             <MDBNavbarNav left className="Navlink-container">
-              <MDBNavItem active>
+              <MDBNavItem>
                 <MDBNavLink activeClassName="Nav-active" to="/seasons">
                   Seasons
                 </MDBNavLink>
