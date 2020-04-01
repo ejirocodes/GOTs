@@ -1,6 +1,9 @@
 .Seasons {
   background-color: #141a27;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 94vh;
   overflow-x: scroll;
 }
 
