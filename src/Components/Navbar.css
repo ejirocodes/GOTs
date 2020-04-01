@@ -65,3 +65,22 @@ li a.Nav-active {
     font-size: 1.5rem;
   }
 }
+@media all and (min-width: 768px) {
+  #Mobile-nav {
+    display: none;
+  }
+}
+@media all and (max-width: 758px) {
+  #Desktop-nav {
+    display: none;
+  }
+  #Mobile-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1.5rem 4rem;
+  }
+  .Hero-main {
+    padding: 10rem 0 !important;
+  }
+}

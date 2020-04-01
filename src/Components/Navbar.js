@@ -9,12 +9,7 @@ import {
   MDBNavItem,
   MDBNavLink,
   MDBNavbarToggler,
-  MDBCollapse,
-  MDBDropdown,
-  MDBDropdownToggle,
-  MDBDropdownMenu,
-  MDBDropdownItem,
-  MDBIcon
+  MDBCollapse
 } from 'mdbreact';
 
 export class Navbar extends Component {
@@ -31,12 +26,13 @@ export class Navbar extends Component {
       <>
         <MDBNavbar
           tag="div"
+          id="Mobile-nav"
           className="Nav-main"
-          color="default-color"
+          color="default-c
+          olor"
           fixed="top"
           dark
           expand="md"
-          scrolling="true"
         >
           <MDBNavbarBrand>
             <NavLink className="Nav-logo" exact to="/">
@@ -70,7 +66,7 @@ export class Navbar extends Component {
           </MDBCollapse>
         </MDBNavbar>
 
-        <nav className="Nav-main">
+        <nav className="Nav-main" id="Desktop-nav">
           <NavLink className="Nav-logo" exact to="/">
             <img src={logo} alt="logo" title="HBO" />
           </NavLink>
