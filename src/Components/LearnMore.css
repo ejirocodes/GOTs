@@ -72,3 +72,8 @@
     letter-spacing: 1px;
   }
 }
+@media all and (min-width: 1640px) {
+.LearnMore-container {
+    justify-content: space-around;
+    }
+}

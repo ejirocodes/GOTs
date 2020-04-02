@@ -116,3 +116,11 @@
     margin-right: 2rem;
   }
 }
+@media all and (min-width: 1640px) {
+  .Hero-main {
+    justify-content: space-around;
+  }
+  .Hero-left {
+    padding: 0;
+  }
+}

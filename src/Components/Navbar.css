@@ -88,8 +88,14 @@ li a.Nav-active {
     padding: 1.5rem 4rem;
     background: var(--btn-color-main);
   }
+  
 
   .Hero-main {
     padding: 10rem 0 !important;
+  }
+}
+@media all and (min-width: 1640px) {
+  .Nav-main {
+    justify-content: space-around;  
   }
 }
