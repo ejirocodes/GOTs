@@ -37,6 +37,11 @@ li a.Nav-active {
   color: rgb(255, 255, 255) !important;
 }
 /* Media Queries */
+@media all and (max-width: 930px) {
+  .Navlink-container li a {
+    margin-right: 4rem;
+  }
+}
 @media all and (max-width: 768px) {
   .Nav-main {
     flex-direction: column;
@@ -64,12 +69,12 @@ li a.Nav-active {
     width: 9rem;
   }
 }
-@media all and (min-width: 768px) {
+@media all and (min-width: 760px) {
   #Mobile-nav {
     display: none;
   }
 }
-@media all and (max-width: 758px) {
+@media all and (max-width: 759px) {
   #Desktop-nav {
     display: none;
   }
@@ -81,7 +86,7 @@ li a.Nav-active {
     flex-direction: row;
     align-items: center;
     padding: 1.5rem 4rem;
-    background: linear-gradient(to left bottom, #2e9ac8ea, #f36c37e5);
+    background: var(--btn-color-main);
   }
 
   .Hero-main {
