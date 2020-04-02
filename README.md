@@ -14,7 +14,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 ## Demo
 
-![Preview of the app](./src/Assets/images/demo.png)
+![Preview of the app](./src/Assets/images/demo.jpg)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 

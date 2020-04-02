@@ -4,7 +4,7 @@
       rgba(20, 26, 39, 0.85),
       rgba(20, 26, 39, 0.85)
     ),
-    url('../Assets/images/background-2.png');
+    url('../Assets/images/background_2.jpg');
   height: 100vh;
   background-size: cover;
 }

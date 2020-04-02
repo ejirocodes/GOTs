@@ -9,15 +9,15 @@ class Characters extends Component {
     const cahractersImages = [
       {
         title: 'Aemon',
-        url: require('../Assets/images/GOT505_102414_HS_DSC_1022-696x442.png')
+        url: require('../Assets/images/GOT505_102414_HS_DSC_1022-696x442.jpg')
       },
       {
         title: 'Arya',
-        url: require('../Assets/images/Arya_stark_s7.png')
+        url: require('../Assets/images/arya_stark_s7.jpg')
       },
       {
         title: 'Aerys',
-        url: require('../Assets/images/mad-king-aerys-targaryen.png')
+        url: require('../Assets/images/mad-king-aerys-targaryen.jpg')
       }
     ];
 
@@ -49,7 +49,7 @@ class Characters extends Component {
             </div>
           </div>
         </section>
-        <Footer /> 
+        <Footer />
       </>
     );
   }

@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Houses.css';
-import card1 from '../Assets/images/Targaryan_Post.png';
-import card2 from '../Assets/images/Starrks.png';
-import card3 from '../Assets/images/boratheons.png';
-import card4 from '../Assets/images/lannasters.png';
+import card1 from '../Assets/images/targaryan_post.jpg';
+import card2 from '../Assets/images/starrks.jpg';
+import card3 from '../Assets/images/boratheons.jpg';
+import card4 from '../Assets/images/lannasters.jpg';
 import backIcon from '../Assets/elements/back_icon.png';
 import Footer from '../Components/Footer';
 export class Houses extends Component {
