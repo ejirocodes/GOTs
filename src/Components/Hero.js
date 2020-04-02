@@ -21,16 +21,25 @@ export class Hero extends Component {
           <TrailerButton />
         </div>
         <div className="Hero-right">
-          <a href="http://" title="Like Game of Thrones page on Facebook">
+          <a
+            href="http://facebook.com"
+            title="Like Game of Thrones page on Facebook"
+          >
             <img src={FacebookIcon} alt="Facebook page" />
           </a>
-          <a href="http://" title="Follow Game of Thrones on Instagram">
+          <a
+            href="http://instagram.com"
+            title="Follow Game of Thrones on Instagram"
+          >
             <img src={InstaIcon} alt="Instagram page" />
           </a>
-          <a href="http://" title="Subscribe to Game of Thrones channel on Youtube">
+          <a
+            href="http://youtube.com"
+            title="Subscribe to Game of Thrones channel on Youtube"
+          >
             <img src={YoutubeIcon} alt="Youtube channel" />
           </a>
-          <a href="http://" title="Watch Game of Thrones on Netflix">
+          <a href="http://netflix.com" title="Watch Game of Thrones on Netflix">
             <img
               className="netflix-img"
               src={NetflixIcon}
