@@ -1,4 +1,4 @@
-# Available Scripts
+# ⚔ This is an installable Single Page Application for Game of Thrones enthusiast 
 
 In the project directory, you can run:
 
